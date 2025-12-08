@@ -1,11 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Alamo's Website</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Alamo St-Jean Game Designer</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
 </head>
-<body>
-    My Website
+<body class="index-page">
+
+  <!-- Navigation -->
+  <nav class="horizontal-nav">
+    <a href="index.html">Home</a>
+    <a href="projects.html">Projects</a>
+    <a href="about.html">About Me</a>
+    <a href="social.html">Social</a>
+    <a href="contact.html">Contact Me</a>
+  </nav>
+
+  <!-- Hero Section with Background Video -->
+  <section class="hero">
+    <video autoplay muted loop playsinline class="background-video">
+      <source src="assets/Test1.mp4" type="video/mp4" />
+      Your browser does not support the video tag.
+    </video>
+    <div class="hero-overlay">
+      <div class="hero-content">
+        <h1>Alamo St-Jean's Portfolio</h1>
+        <p>Creative game designer, proud cat dad and games enthusiast since the late 80's, explore my work below.</p>
+        <a href="projects.html" class="cta-button">View My Projects</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Scroll Indicator -->
+  <div class="scroll-indicator">
+    <span>↓</span>
+  </div>
+
+<!-- Ribbon Section with Background Video -->
+<section class="ribbon">
+  <video autoplay muted loop playsinline class="ribbon-video">
+    <source src="assets/ribbon.mp4" type="video/mp4" />
+    Your browser does not support the video tag.
+  </video>
+  <div class="ribbon-overlay">
+    <div class="ribbon-content">
+      <h2>My latest work</h2>
+      <p>
+        "Lefty" is a retro 2D sidescroller with a twist!
+        The hero as well as the player are forced to become left-handed and must overcome challenges.
+        The whole design of the game is switched around, breaking platformer conventions to create a unique twist on a well oiled formula!
+      </p>
+      <a href="projects.html" class="download-link">Learn more about "Lefty" here!</a>
+    </div>
+  </div>
+</section>
 </body>
 </html>

@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact Me</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    .contact-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      padding: 20px;
+      text-align: center;
+    }
+
+    .contact-item {
+      margin: 20px 0;
+      font-size: 1.1rem;
+    }
+
+    .reveal-button {
+      margin-top: 10px;
+      padding: 8px 16px;
+      background-color: black;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      font-weight: 600;
+      cursor: pointer;
+      transition: background-color 0.3s ease;
+    }
+
+    .reveal-button:hover {
+      background-color: #ff4c4c;
+    }
+
+    .download-link {
+      display: inline-block;
+      margin-top: 10px;
+      padding: 10px 20px;
+      background-color: #ff4c4c;
+      color: white;
+      text-decoration: none;
+      font-weight: 600;
+      border-radius: 8px;
+      transition: background-color 0.3s ease;
+    }
+
+    .download-link:hover {
+      background-color: #e03c3c;
+    }
+
+    .return-button {
+      margin-top: 40px;
+      padding: 12px 24px;
+      background-color: black;
+      color: white;
+      text-decoration: none;
+      font-weight: 600;
+      border-radius: 8px;
+      transition: transform 0.3s ease, background-color 0.3s ease;
+    }
+
+    .return-button:hover {
+      transform: scale(1.1);
+      background-color: #ff4c4c;
+    }
+  </style>
+</head>
+<body>
+  <div class="contact-container">
+    <h1>Contact Me</h1>
+
+    <div class="contact-item">
+      <strong>Email:</strong>
+      <span id="email">[click to reveal]</span><br />
+      <button class="reveal-button" onclick="document.getElementById('email').textContent = 'alamo.stjean@gmail.com'">Reveal Email</button>
+    </div>
+
+    <div class="contact-item">
+      <strong>Download My CV:</strong><br />
+      <a href="CV-Alamo-St-Jean_CF VERSION_2025.pdf" class="download-link" download>Download my Resume (PDF)</a>
+    </div>
+
+    <a href="index.html" class="return-button">Return to Main Page</a>
+  </div>
+</body>
+
+<!-- Navigation -->
+<nav class="horizontal-nav">
+  <a href="index.html">Home</a>
+  <a href="projects.html">Projects</a>
+  <a href="about.html">About Me</a>
+  <a href="social.html">Social</a>
+  <a href="contact.html">Contact Me</a>
+</nav>
+
+</html>
+

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Social Media</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <style>
+    .social-container {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+      text-align: center;
+      padding: 20px;
+    }
+
+    .social-icons {
+      display: flex;
+      gap: 40px;
+      margin: 40px 0;
+    }
+
+    .social-icons a img {
+      width: 80px;
+      height: 80px;
+      transition: transform 0.3s ease;
+    }
+
+    .social-icons a:hover img {
+      transform: scale(1.1);
+    }
+
+    .return-button {
+      padding: 12px 24px;
+      background-color: black;
+      color: white;
+      text-decoration: none;
+      font-weight: 600;
+      border-radius: 8px;
+      transition: transform 0.3s ease, background-color 0.3s ease;
+    }
+
+    .return-button:hover {
+      transform: scale(1.1);
+      background-color: #ff4c4c;
+    }
+  </style>
+</head>
+<body>
+  <div class="social-container">
+    <h1>Connect With Me</h1>
+    <div class="social-icons">
+      <a href="https://www.instagram.com/killtheg1mp/" target="_blank">
+        <img src="instagram.png" alt="Instagram" />
+      </a>
+      <a href="https://www.youtube.com/@Aardek" target="_blank">
+        <img src="youtube.png" alt="YouTube" />
+      </a>
+      <a href="https://www.linkedin.com/in/alamo-st-jean-8b2685173/?locale=en_US" target="_blank">
+        <img src="linkedin.png" alt="LinkedIn" />
+      </a>
+    </div>
+    <a href="index.html" class="return-button">Return to Main Page</a>
+  </div>
+</body>
+
+<!-- Navigation -->
+<nav class="horizontal-nav">
+  <a href="index.html">Home</a>
+  <a href="projects.html">Projects</a>
+  <a href="about.html">About Me</a>
+  <a href="social.html">Social</a>
+  <a href="contact.html">Contact Me</a>
+</nav>
